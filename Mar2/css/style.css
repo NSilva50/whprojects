@@ -1,0 +1,32 @@
+html {
+  background-color: pink;
+}
+
+p {
+  color: slateblue;
+}
+
+span {
+  color: purple;
+}
+
+div {
+  color: palevioletred;
+}
+
+div span {
+  color: orange;
+}
+
+.banana {
+  color: aquamarine;
+}
+
+#apple {
+  color: black;
+}
+
+.cabana {
+  color: red;
+}
+/*# sourceMappingURL=style.css.map */

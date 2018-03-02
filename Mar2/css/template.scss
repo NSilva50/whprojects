@@ -1,0 +1,95 @@
+$keycolor: hsl(181, 100%, 41%);
+$white: hsl(200, 0%, 96%);
+$black: hsl(0, 0%, 8%);
+
+body {
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+header {
+    padding: 10vw 2vw;
+    background-color: grayscale($black 50);
+    text-align: center;
+    color: white;
+}
+
+header div {
+    width: 35%;
+    padding: 5vw;
+    margin: 0 auto;
+    border-width: 7px 1px;
+    border-style: double solid;
+    border-color: $white;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 200;
+}
+
+h2 {
+    
+    font-weight: 100;
+    margin: 50px;
+}
+
+section {
+    background-color: $white;
+}
+
+// love hate links
+// psuedo class: link
+a:link {
+    color: inherit;
+}
+
+//psuedo class visited
+a:visited {
+    color: darkblue;
+}
+
+// psuedo class hover
+a:hover {
+    color: red;
+}
+
+// psuedo class active
+a:active {
+    color: purple;
+}
+
+a.button {
+    background-color: transparentize($black .75);
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+a.button:hover {
+    background-color: transparentize($black .90)
+    font-
+}
+
+#feat h2 {
+    border-bottom: 3px double inherit;
+    display: inline-block;
+}
+
+#feat ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    li {
+        width: 25%;
+        padding: 40px;
+        border: 1px solid $black;
+        margin-left: -1px;
+        margin-top: -1px;
+        text-align: center;
+    }
+}
+
+strong {
+    font-size: 45px;
+}
