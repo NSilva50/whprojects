@@ -1,0 +1,47 @@
+html {
+    background-color: white;
+    color: black;
+}
+
+main {
+    background-color: black;
+    color: white;
+    height: 50vh;
+    position: relative;
+}
+
+.img1 {
+    position: absolute;
+    // top: ;
+    right: 0;
+    bottom: 0;
+    // left: ;
+}
+
+.img2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 5;
+}
+
+.img3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.img4 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+div {
+    background-color:transparentize($color: lightblue, $amount: 0.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
