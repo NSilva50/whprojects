@@ -1,0 +1,31 @@
+html {
+  background-color: white;
+}
+
+body {
+  background-image: url("../background homework.jpg");
+  background-repeat: none;
+  background-size: cover;
+  font-family: 'roboto' sans-serif;
+}
+
+nav {
+  background-color: black;
+  color: white;
+}
+
+nav > ul {
+  list-style: none;
+  display: inline;
+  flex-direction: row;
+}
+
+.secondary {
+  display: none;
+}
+
+.secondary a:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+/*# sourceMappingURL=navbar.css.map */
