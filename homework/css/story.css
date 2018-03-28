@@ -1,0 +1,45 @@
+html {
+  color: yellow;
+  font-family: sans-serif;
+}
+
+.home {
+  background-image: url("../img/mansion img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home h1 {
+  text-transform: capitalize;
+}
+
+.home p {
+  font-size: 24px;
+  margin: 100px;
+}
+
+.home div {
+  margin: 100px;
+}
+
+.home div button {
+  background-color: gray;
+  border-style: block;
+  padding: 15px 30px;
+  display: inline-block;
+}
+
+.home div button:hover {
+  background-color: white;
+}
+
+.bio {
+  position: absolute;
+  left: 250px;
+}
+
+.play {
+  position: absolute;
+  right: 250px;
+}
+/*# sourceMappingURL=story.css.map */
