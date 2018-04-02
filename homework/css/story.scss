@@ -16,24 +16,32 @@ html {
     }
     div {
         margin: 100px;
-        button {
-            background-color: gray;
-            border-style: block;
-            padding: 15px 30px;
-            display: inline-block;
-        }
-        button:hover {
+        a:hover {
             background-color: white;
         }
     }
+    .bio {
+        position: absolute;
+        left: 250px;
+        text-decoration: none;
+        color: black;
+        background-color: gray;
+        border-style: block;
+        padding: 15px 30px;
+        display: inline-block;
+    }
+    .play {
+        position: absolute;
+        right: 250px;
+        text-decoration: none;
+        color: black;
+        background-color: gray;
+        border-style: block;
+        padding: 15px 30px;
+        display: inline-block;
+    }
 }
 
-.bio {
-    position: absolute;
-    left: 250px;
-}
-
-.play {
-    position: absolute;
-    right: 250px;
+.characterprofile {
+    background-image: url("../img/livingroom img.jpg");
 }

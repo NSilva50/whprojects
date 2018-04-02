@@ -22,24 +22,33 @@ html {
   margin: 100px;
 }
 
-.home div button {
+.home div a:hover {
+  background-color: white;
+}
+
+.home .bio {
+  position: absolute;
+  left: 250px;
+  text-decoration: none;
+  color: black;
   background-color: gray;
   border-style: block;
   padding: 15px 30px;
   display: inline-block;
 }
 
-.home div button:hover {
-  background-color: white;
-}
-
-.bio {
-  position: absolute;
-  left: 250px;
-}
-
-.play {
+.home .play {
   position: absolute;
   right: 250px;
+  text-decoration: none;
+  color: black;
+  background-color: gray;
+  border-style: block;
+  padding: 15px 30px;
+  display: inline-block;
+}
+
+.characterprofile {
+  background-image: url("../img/livingroom img.jpg");
 }
 /*# sourceMappingURL=story.css.map */
