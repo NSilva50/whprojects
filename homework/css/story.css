@@ -3,30 +3,30 @@ html {
   font-family: sans-serif;
 }
 
-.home {
+#home {
   background-image: url("../img/mansion img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.home h1 {
+#home h1 {
   text-transform: capitalize;
 }
 
-.home p {
+#home p {
   font-size: 24px;
   margin: 100px;
 }
 
-.home div {
+#home div {
   margin: 100px;
 }
 
-.home div a:hover {
+#home div a:hover {
   background-color: white;
 }
 
-.home .bio {
+#home .bio {
   position: absolute;
   left: 250px;
   text-decoration: none;
@@ -37,7 +37,7 @@ html {
   display: inline-block;
 }
 
-.home .play {
+#home .play {
   position: absolute;
   right: 250px;
   text-decoration: none;
@@ -48,7 +48,22 @@ html {
   display: inline-block;
 }
 
-.characterprofile {
+#characterprofile {
   background-image: url("../img/livingroom img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#characterprofile h2 {
+  font-weight: bolder;
+}
+
+#characterprofile .profiles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 500px;
+  margin: 25px;
 }
 /*# sourceMappingURL=story.css.map */

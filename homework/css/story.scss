@@ -3,7 +3,7 @@ html {
     font-family: sans-serif;
 }
 
-.home {
+#home {
     background-image: url("../img/mansion img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -42,6 +42,19 @@ html {
     }
 }
 
-.characterprofile {
+#characterprofile {
     background-image: url("../img/livingroom img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    h2 {
+        font-weight: bolder;
+    }
+    .profiles {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 500px;
+        margin: 25px;
+    }
 }
