@@ -58,3 +58,20 @@ html {
         margin: 25px;
     }
 }
+
+.foyerRoom {
+    background-image: url("../img/foyer.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.buttonRow {
+    display: flex;
+    justify-content: space-between;
+    button {
+        border: none;
+        background-color: gray;
+        color: black;
+        font-size: 24px;
+    }
+}

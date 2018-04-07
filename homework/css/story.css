@@ -66,4 +66,22 @@ html {
   height: 500px;
   margin: 25px;
 }
+
+.foyerRoom {
+  background-image: url("../img/foyer.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.buttonRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonRow button {
+  border: none;
+  background-color: gray;
+  color: black;
+  font-size: 24px;
+}
 /*# sourceMappingURL=story.css.map */
