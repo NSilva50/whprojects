@@ -7,39 +7,39 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body onload="startGame()">
     
-    <div>
-        <p>Lorem.</p>
+    <header>
+        <h1>A Dead Awakening</h1>
+    </header>
+    
+    <section id="details">
+        <h2>Rumors of silver in the Korgothian Hills Have become more and more frequent these past few months in the various markets you have visited during your recent travels. Even a few Merchants you have passed along the winding roads from town to town have been able to recant the same; Prospectors are arriving in the western markets with adequate and even generous findings of pure silver...
 
-        <p id="step2"></p>
+It is time to venture East to the Korgothian Hills, Noble Traveler! Silver prices remain high in the marketplace and it is time to stake your claim now before too much silver is circulated and prices drop!</h2>
+    </section>
 
-        <p id="step3"></p>
-        
-        <p id="step4"></p>
+    <main>
+        <h3>Level 1 - The Haunted Forest</h3>
+        <p>As you begin to make your way through the forest, you realize that Travelers were speaking the truth... Whisper-like moans and curses fill the forest air as silver-grey figures dance gracefully among the tree trunks. Some Fly Away into the dark, morning sky or dissolve Into Thin Air as you come near... Others lazily circle the moonlit branches overhead... Never taking their vacant eyes off of you as you pass along... Still others are seen out of the corner of your eyes; standing motionless and challenging you with calm, evil smiles... making direct eye contact with them result in a shimmering vanish and a chilling echo of laughter... 
 
-        <p id="step5"></p>
-
-        <p id="step6"></p>
-
-        <p id="step7"></p>
-
-        <p id="step8"></p>
-
-        <p id="step9"></p>
-
-        <p id="step10"></p>
+You know from experience that you are being taunted... Being tested... Do not try to follow or chase them. Do not be thwarted or led astray, for ghost want only one thing to drain your life and make you one of them and they will do so at all costs! Their fate has been cast... They have nothing more to lose and as the saying goes, "Misery loves company". As you Meander through the trees, the braver operation swoop down to meet you in every clearing you find...</p>
+      
+        <p id="turn1"></p>
+    </main>
+  
+    <div id="movement">
+        <button id="left0" class="revealed">Move Left</button>
+        <button id="up0" class="revealed">Move Forward</button>
+        <button id="right0" class="revealed">Move Right</button>
     </div>
-
-    <div>
-        <button id="doorA"></button>
-
-        <button id="doorB"></button>
-
-        <button id="doorC"></button>
+  
+    <div id="combat">
+        <button id="atk0" class="revealed">Attack</button>
+        <button id="esc0" class="revealed">Flee</button>
     </div>
-
+  
     <script src="js/script.js"></script>
-
+    
 </body>
 </html>

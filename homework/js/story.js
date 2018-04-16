@@ -14,3 +14,7 @@ function lockedEntrance(){
 function lockedBasement(){
     document.getElementById("foyerAct1").innerHTML = "The door towards the Basement is locked, there must be another way in.";
 }
+
+function moveCorridor(){
+    document.getElementById("gamePage").style.backgroundImage = URL("../img/corridor.jpg");
+}

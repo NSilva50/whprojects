@@ -7,7 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/story.css">
 </head>
-<body onload="startgame();" class="foyerRoom">
+<body onload="startgame();" id="gamePage">
 
     <h1>Tonight you wake up in a daze, your vision blurry, for a moment you can vaguely see four human like figures around you. They are speaking but you can't pick up what they are really saying. Before you come to they all take their separate ways; Left in a lobby of an old manor, there is nothing left to do but explore and find a way out.</h1>
 
@@ -22,10 +22,12 @@
 
         <button>Upper Floor</button>
 
-        <button>Left Corridor</button>
+        <button onclick="moveCorridor()">Left Corridor</button>
 
-        <button>Right Corridor</button>
+        <button onclick="moveCorridor()">Right Corridor</button>
     </div>
+
+    <h2 id="travel1"></h2>
 
     <script src="js/story.js"></script>
 
