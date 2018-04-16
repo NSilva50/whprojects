@@ -1,0 +1,18 @@
+function fight(){
+    atk.addEventListener("click", dmgCal);
+    esc.addEventListener("click", escaping);
+}
+
+function dmgCal(){
+    Math.floor((Math.random() * 6) + 3);
+}
+
+var escapeCount = 0;
+console.log(escapeCount);
+function escaping(){
+    if (escapeCount == 3) {
+        alert("You could escape no longer and have been slain. Game Over!")
+    } else {
+        escapeCount++;
+    }
+}
