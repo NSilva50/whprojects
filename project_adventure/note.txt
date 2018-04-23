@@ -1,19 +1,15 @@
-function fight(){
-    atk.addEventListener("click", player-basicAtk);
-    esc.addEventListener("click", escaping);
+var forestEncounter = (boo, cursed, shiny, freedom);
+var boo = "A ghost swoops in, ready to drain your life force.";
+var cursed = "You feel the air thinning and begin to suffocate. You must hurry out of the forest.";
+var shiny = "Ooh, you found an item!";
+var freedom = "You progress through the forest, surrounded by dead trees the further you go. Sickened by death, you finally see the view of the ruined city. You made it out of the forest stronger than before.";
+
+function generateEncounter(){
+    var forestNum = Math.floor(Math.random() * 4);
+    console.log(forestNum);
+    encounter(forestEncounter[forestNum]);
 }
 
-function player-basicAtk(){
-    var damageRoll = Math.ceil(Math.random() * 5) + player.atk;
-    enemyhp -= damageRoll;
-}
-
-var escapeCount = 0;
-console.log(escapeCount);
-function escaping(){
-    if (escapeCount == 3) {
-        alert("You could escape no longer and have been slain. Game Over!")
-    } else {
-        escapeCount++;
-    }
+function encounter(){
+    document.getElementById("currentText").innerHTML = "";
 }
